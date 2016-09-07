@@ -134,7 +134,7 @@
           clubber.listen(audio);
           
           function play (src) {
-            var url = 'http://api.soundcloud.com/tracks/'  + parseInt(document.querySelector("input").value) + '/stream' +
+            var url = 'https://api.soundcloud.com/tracks/'  + parseInt(document.querySelector("input").value) + '/stream' +
             '?client_id=56c4f3443da0d6ce6dcb60ba341c4e8d';
             audio.src=url;
             audio.play();
